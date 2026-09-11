@@ -1,0 +1,8 @@
+LAMMPS (22 Jul 2025 - Update 4)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread.
+  using 1 OpenMP thread(s) per MPI task
+Open of file C:\Users\eliot\AppData\Local\LAMMPS USER-BFIELD Plugin 4Jul2026-MSMPI\bfieldplugin.so failed: 
+Loaded 0 plugins from C:\Users\eliot\AppData\Local\LAMMPS USER-BFIELD Plugin 4Jul2026-MSMPI
+print 'Everything is working perfectly!'
+Everything is working perfectly!
+Total wall time: 0:00:00
