@@ -10,8 +10,8 @@ try: #try this and if it works then
     print(f"LAMMPS Version: {lmp.version()}") #fstrings
     lmp.command("print 'Everything is working perfectly!'")
     
-except ImportError:
+except ImportError: #importing wrong
     print("ERROR: The 'lammps' module is not installed in this Python environment.")
     print(f"Current Python executable: {sys.executable}")
-except Exception as e:
+except Exception as e: #other issues?
     print(f"Import succeeded, but LAMMPS engine failed to start: {e}")
