@@ -1,4 +1,6 @@
 import sys #unknown import
+import os
+os.add_dll_directory(r"C:\Users\eliot\AppData\Local\LAMMPS USER-BFIELD Plugin 4Jul2026-MSMPI")
 try: #try this and if it works then 
     from lammps import lammps
     print("Python module 'lammps' imported successfully!")
